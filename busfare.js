@@ -15,17 +15,17 @@ if (age < 10) {
     console.log("Children: free");
 
 }
-else if (isStudent) {
-    discountFee = fee * 50 / 100;
-    payableFee = fee - discountFee;
-    console.log(payableFee);
-
-}
 else if (age >= 60) {
     discountFee = fee * 15 / 100;
     payableFee = fee - discountFee;
     console.log(payableFee);
 
+
+}
+else if (isStudent) {
+    discountFee = fee * 50 / 100;
+    payableFee = fee - discountFee;
+    console.log(payableFee);
 
 }
 else {
