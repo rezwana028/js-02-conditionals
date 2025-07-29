@@ -46,3 +46,30 @@ console.log(result);
 
 
 
+
+// যদি age ≥ 18 হয়
+// আবার চেক করো সে ID সাথে এনেছে কিনা
+// ID থাকলে → "You can enter"
+// না থাকলে → "ID required"
+
+// যদি age < 18 → "Under age"
+
+let age = 20;
+let hasID = true;
+
+if (age >= 18) {
+
+    if (hasID == true) {
+        console.log("You Can Enter");
+
+    }
+    else {
+        console.log("ID required");
+
+    }
+
+}
+else {
+    console.log("Under Age");
+
+}
